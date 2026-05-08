@@ -229,6 +229,7 @@ form {
 
 /* Container for the Facebook Review */
 .fb-review-container {
+    display: grid;
     max-width: 100%;
     gap: 24px;
     overflow: hidden;
