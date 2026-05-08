@@ -240,7 +240,7 @@ form {
 /* Force iframe to be responsive */
 .fb-review-container iframe {
     width: 100% !important;
-    max-width: 500px; /* Maximum width on desktop */
+    max-width: 1080px; /* Maximum width on desktop */
 }
 
 /* Mobile Adjustments */
