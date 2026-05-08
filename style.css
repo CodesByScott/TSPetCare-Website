@@ -227,15 +227,10 @@ form {
     margin-left: 20px;
 }
 
-/* Decrease Facebook Embed width on Mobile */
-@media only screen and (max-width: 600px) {
-    .fb_iframe_widget iframe {
-        width: 100% !important;
-        max-width: 320px !important; /* Forces a reasonable mobile width */
-    }
-    .fb_iframe_widget, .fb-page {
-        width: 100% !important;
-    }
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 24px;
 }
 
 blockquote {
