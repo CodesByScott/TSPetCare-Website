@@ -227,10 +227,25 @@ form {
     margin-left: 20px;
 }
 
-.reviews {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1080px, 1fr));
-    gap: 24px;
+/* Container for the Facebook Review */
+.fb-review-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Force iframe to be responsive */
+.fb-review-container iframe {
+    width: 100% !important;
+    max-width: 500px; /* Maximum width on desktop */
+}
+
+/* Mobile Adjustments */
+@media only screen and (max-width: 767px) {
+    .fb_iframe_widget iframe {
+        width: 100% !important;
+        /* Optional: limit height on mobile */
+        /* height: 300px !important; */
+    }
 }
 
 blockquote {
