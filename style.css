@@ -91,7 +91,7 @@ body {
 }
 
 .hero-content {
-    max-width: 650px;
+    max-width: 1080px;
 }
 
 .pricing-image {
@@ -144,6 +144,7 @@ body {
     color: #000000;
     padding: 14px 24px;
     border-radius: 999px;
+    margin-bottom: 50px;
     text-decoration: none;
     border: none;
     font-weight: bold;
@@ -175,8 +176,8 @@ body {
 }
 
 .cards {
-    display: flex;
-    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1080px, 1fr));
     gap: 20px;
 }
 
