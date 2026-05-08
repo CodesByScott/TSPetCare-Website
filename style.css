@@ -245,7 +245,7 @@ form {
         width: 100% !important;
         height: 100% !important;
         min-height: 767px !important;
-        overflow: hidden !important;
+        overflow: show !important;
     }
 }
 
