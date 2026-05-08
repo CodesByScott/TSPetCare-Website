@@ -227,12 +227,6 @@ form {
     margin-left: 20px;
 }
 
-.reviews {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1080px, 1fr));
-    gap: 24px;
-}
-
 /* Decrease Facebook Embed width on Mobile */
 @media only screen and (max-width: 600px) {
     .fb_iframe_widget iframe {
