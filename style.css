@@ -245,6 +245,7 @@ form {
         width: 100% !important;
         height: 100% !important;
         min-height: 920px !important;
+        gap: 24px !important;
     }
 }
 
