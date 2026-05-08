@@ -248,7 +248,8 @@ form {
     .fb_iframe_widget iframe {
         width: 100% !important;
         max-width: 500px;
-        height: 600px !important;
+        height: auto !important;
+        min-height: 600px;
     }
 }
 
