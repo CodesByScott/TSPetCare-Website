@@ -245,13 +245,8 @@ form {
         width: 100% !important;
         max-width: 300px; /* Adjust based on your container */
         height: 100% !important;
-        max-height: 300px;
-    }
-    .fb_iframe_widget > span {
-        width: 100% !important;
     }
 }
-
 
 blockquote {
     font-size: 1.05rem;
